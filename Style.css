@@ -154,3 +154,9 @@ main {
 .task .actions .delete {
     color: crimson;
 }
+
+@media (max-width: 991px) {
+    #new-task-submit{
+        display: none;
+    }
+}
